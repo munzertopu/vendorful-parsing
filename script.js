@@ -22,6 +22,7 @@ app.use(
 );
 app.use(cookieParser());
 app.use(express.static("./build"));
+app.use(express.static("./public"));
 
 //app.use(express.static(path.join(__dirname, "build")));
 
